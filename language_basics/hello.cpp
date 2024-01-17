@@ -93,4 +93,27 @@ reviewing c++ for DSA practice
 //   return 0;
 // }
 
+// simple program to swap two numbers
 
+void numSwap(int* x, int* y){
+  int z = *x;
+  *x = *y;
+  *y = z;
+}
+
+int main()
+{
+
+  int a = 5;
+  int b = 10;
+
+  cout << "a is : " << a << endl;
+  cout << "b is : " << b << endl;
+
+  numSwap(&a, &b);
+
+  cout << "a is : " << a << endl;
+  cout << "b is : " << b << endl;
+
+  return 0;
+}
