@@ -9,6 +9,8 @@ reviewing c++ for DSA practice
 */
 int main()
 {
+  int x = 7;
+  string result = (x < 10)? "X is lessthan 10" : "it is not less than 10";
   // string fullName;
   // const float pi = 3.14;
   // char a = 65, b = 104;
@@ -23,7 +25,6 @@ int main()
   // cout<<"enter your full name:\n";
   // getline(cin,fullName);
   // cout<<fullName<<endl;
-  cout<<round(2)<<endl;
-
+  cout<<result<<endl;
   return 0;
 }
