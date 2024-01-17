@@ -73,22 +73,24 @@ reviewing c++ for DSA practice
 
 // pointers
 
-int main()
-{
+// int main()
+// {
 
-  string food = "eboo";
-  string &megu = food;
-  string *foodAdd = &food;
+//   string food = "eboo";
+//   string &megu = food;
+//   string *foodAdd = &food;
 
-  cout << "food is : " << food << endl;
-  cout << "megu is : " << megu << endl;
-  cout << "megu address : " << &food << endl;
-  cout << "megu address : " << &megu << endl;
-  cout << "megu address : " << foodAdd << endl;
-  cout << "foodAdd val  : " << *foodAdd << endl;
-  *foodAdd = "echadoi";
-  cout << "food is : " << food << endl;
-  cout << "megu is : " << megu << endl;
+//   cout << "food is : " << food << endl;
+//   cout << "megu is : " << megu << endl;
+//   cout << "megu address : " << &food << endl;
+//   cout << "megu address : " << &megu << endl;
+//   cout << "megu address : " << foodAdd << endl;
+//   cout << "foodAdd val  : " << *foodAdd << endl;
+//   *foodAdd = "echadoi";
+//   cout << "food is : " << food << endl;
+//   cout << "megu is : " << megu << endl;
 
-  return 0;
-}
+//   return 0;
+// }
+
+
