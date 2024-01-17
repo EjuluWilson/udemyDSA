@@ -33,7 +33,7 @@ reviewing c++ for DSA practice
 //   return 0;
 // }
 
-//loops
+// loops
 
 // int main(){
 //   int nums[6] = {1,2,3,4,5,6};
@@ -46,10 +46,8 @@ reviewing c++ for DSA practice
 //   cout<<"The array val 1 size is: " <<sizeof(nums[0])<<endl;
 //   cout<<"The number of elements in the array are: " <<sizeof(nums)/sizeof(nums[0])<<endl;
 
-
 //   return 0;
 // }
-
 
 // structs
 
@@ -72,3 +70,25 @@ reviewing c++ for DSA practice
 
 //   return 0;
 // }
+
+// pointers
+
+int main()
+{
+
+  string food = "eboo";
+  string &megu = food;
+  string *foodAdd = &food;
+
+  cout << "food is : " << food << endl;
+  cout << "megu is : " << megu << endl;
+  cout << "megu address : " << &food << endl;
+  cout << "megu address : " << &megu << endl;
+  cout << "megu address : " << foodAdd << endl;
+  cout << "foodAdd val  : " << *foodAdd << endl;
+  *foodAdd = "echadoi";
+  cout << "food is : " << food << endl;
+  cout << "megu is : " << megu << endl;
+
+  return 0;
+}
