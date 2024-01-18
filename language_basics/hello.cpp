@@ -118,19 +118,75 @@ reviewing c++ for DSA practice
 //   return 0;
 // }
 
-int total(int a)
-{
-  return a;
+// int total(int a)
+// {
+//   return a;
+// };
+
+// int total(int a, int b)
+// {
+//   return a + b;
+// };
+
+// int main()
+// {
+//   cout << total(5) << endl;
+//   cout << total(5, 5) << endl;
+//   return 0;
+// }
+
+
+// // recurssively add two numbers
+
+// int addRange(int x){
+
+
+//   if(x==0){
+//     return 
+//   }
+
+
+
+// }
+
+// int main(){
+//   int a = 10;
+//   addRange(a);
+//   return 0;
+// }
+
+
+// Base class
+class Animal {
+  public:
+    void animalSound() {
+      cout << "The animal makes a sound \n";
+    }
 };
 
-int total(int a, int b)
-{
-  return a + b;
+// Derived class
+class Pig : public Animal {
+  public:
+    void animalSound() {
+      cout << "The pig says: wee wee \n";
+    }
 };
 
-int main()
-{
-  cout << total(5) << endl;
-  cout << total(5, 5) << endl;
+// Derived class
+class Dog : public Animal {
+  public:
+    void animalSound() {
+      cout << "The dog says: bow wow \n";
+    }
+};
+
+int main() {
+  Animal myAnimal;
+  Pig myPig;
+  Dog myDog;
+
+  myAnimal.animalSound();
+  myPig.animalSound();
+  myDog.animalSound();
   return 0;
 }
